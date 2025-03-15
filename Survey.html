@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Data Page</title>
+</head>
+<style>
+    .content-table{
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 1rem;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-table thead tr{
+     background-color: #009879;
+     color: #fff;
+     text-align: left;
+     font-weight: bold;
+    }
+    .content-table th,
+    .content-table td{
+        padding: 12px 15px;
+    }
+    .content-table tbody{
+        border-bottom: 1px solid #dddddd;
+    }
+    .content-table tbody tr:nth-of-type(even){
+        background-color: #f3f3f3;
+    }
+    .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+    }
+    .content-table tbody tr:hover{
+        font-weight: bold;
+        color: #009879;
+    }
+    h1{
+        text-align: center;
+        background-color: #009879;
+        border-radius: 5px;
+    }
+
+</style>
+<body>
+    <h1>Survey Data</h1>
+    <table class="content-table">
+        <thead>
+            <tr>
+                <th>S.NO</th>
+                <th>NAME OF THE RESIDENT</th>
+                <th>PHONE NO</th>
+                <th>AADHAR NO</th>
+                <th>ONLINE(YES/NO)</th>
+                <th>OFFLINE(YES/NO)</th>
+                <th>ADDRESS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>B.PADMA</td>
+                <td>7416845887</td>
+                <td>895746231540</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr class="active-row">
+                <td>2</td>
+                <td>K.RAJASEKHAR REDDY</td>
+                <td>901451434</td>
+                <td>745689129251</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>G.ARYA</td>
+                <td>8019041571</td>
+                <td>745689129251</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>P.KALYANI</td>
+                <td>9676359546</td>
+                <td>298784657913</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>A.TEJASWINI</td>
+                <td>7032592697</td>
+                <td>888324109632</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>K.GAYATHRI</td>
+                <td>9177402257</td>
+                <td>201526443285</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Y.VINODHINI</td>
+                <td>9959591446</td>
+                <td>263529381827</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>K.RAMANAIAH</td>
+                <td>8367404153</td>
+                <td>891991988919</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>V.NIRANJAN</td>
+                <td>7013114002</td>
+                <td>855524519874</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>V.NITHIN</td>
+                <td>9951032703</td>
+                <td>895746231541</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>P.HEMANTH</td>
+                <td>9701272990</td>
+                <td>745689129252</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>B.BHARGAVI</td>
+                <td>8501846098</td>
+                <td>264927889640</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Y.MURALI KRISHNA</td>
+                <td>9381131360</td>
+                <td>298784657914</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>T.KALPANA</td>
+                <td>8464067009</td>
+                <td>888324109633</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>M.TEJA</td>
+                <td>9346145368</td>
+                <td>201526443286</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>P.RAJ KUMAR</td>
+                <td>9014365093</td>
+                <td>263529381828</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>K.SAVITHRI</td>
+                <td>8985805171</td>
+                <td>827192837193</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>G.MURALI</td>
+                <td>7842664005</td>
+                <td>847595865142</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>K.RATHNA</td>
+                <td>6305334450</td>
+                <td>855524519869</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>A.KIRAN KUMARI</td>
+                <td>9381152880</td>
+                <td>895746231542</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>B. DILEEP</td>
+                <td>7386235159</td>
+                <td>745689129253</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>E.KRISHNA VAMSI</td>
+                <td>8179762077</td>
+                <td>264927889645</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>D.MANOJ KUMAR</td>
+                <td>8125396620</td>
+                <td>298784657915</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>B.BALU</td>
+                <td>7337458686</td>
+                <td>888324109634</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>D.CHAITRA</td>
+                <td>9840848318</td>
+                <td>201526443287</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>M.LEKHA</td>
+                <td>9032764547</td>
+                <td>263529381829</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>A.HARI</td>
+                <td>9014676411</td>
+                <td>827192837194</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>B.SRINIVASULU REDDY</td>
+                <td>9948700720</td>
+                <td>847595865143</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>V.ROJA</td>
+                <td>9441081852</td>
+                <td>865953265847</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>P.CHANDRIAH</td>
+                <td>7995318653</td>
+                <td>895746231543</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>C.SEENAIAH</td>
+                <td>9040664637</td>
+                <td>745689129257</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td>S.VINOD</td>
+                <td>7569770002</td>
+                <td>264927889646</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>33</td>
+                <td>K.VENKATESHWARLU</td>
+                <td>9866189421</td>
+                <td>298784657916</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>34</td>
+                <td>R.MEGHANA</td>
+                <td>9441547887</td>
+                <td>888324109635</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>35</td>
+                <td>C.SURENDRA</td>
+                <td>9876543210</td>
+                <td>201526443288</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>36</td>
+                <td>B.SOWMYA</td>
+                <td>9849281891</td>
+                <td>263529381810</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>37</td>
+                <td>M.KAVITHA</td>
+                <td>9948833993</td>
+                <td>827192837195</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>38</td>
+                <td>I.VISHNU</td>
+                <td>9848391243</td>
+                <td>847595865143</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>39</td>
+                <td>D.PRAVALLIKA</td>
+                <td>6341786923</td>
+                <td>263529381811</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>40</td>
+                <td>C.MANIKANTA</td>
+                <td>8333810082</td>
+                <td>895746231544</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>41</td>
+                <td>P.BHARATH</td>
+                <td>7989931526</td>
+                <td>745689129254</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>42</td>
+                <td>B.MANGAMMA</td>
+                <td>9494572463</td>
+                <td>264927889647</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>43</td>
+                <td>S.VEERA PRASAD</td>
+                <td>8374996264</td>
+                <td>298784657917</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>44</td>
+                <td>K.PRASANNA KUMAR</td>
+                <td>9912328658</td>
+                <td>888324109637</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>45</td>
+                <td>C.CHANDRA SEKHAR REDDY</td>
+                <td>6302567721</td>
+                <td>201526443289</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>46</td>
+                <td>S.VINAY KUMAR</td>
+                <td>8688972594</td>
+                <td>888324109636</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>47</td>
+                <td>K.TEJA KUMAR</td>
+                <td>9391804124</td>
+                <td>298784657918</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>48</td>
+                <td>K.VENKATESHWARLU</td>
+                <td>8897638117</td>
+                <td>264927889648</td>
+                <td>YES</td>
+                <td>NO</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+                <td>49</td>
+                <td>R.SUNEEL</td>
+                <td>9000065075</td>
+                <td>745689129255</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>B.V NAGAR</td>
+            </tr>
+            <tr>
+               <td>50</td>
+               <td>P.UMESH</td>
+               <td>9182520933</td>
+               <td>895746231545</td>
+               <td>NO</td>
+               <td>YES</td>
+               <td>B.V NAGAR</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>

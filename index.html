@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping or Offline Shopping</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7f0eb368eb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <hr>
+    <img src="logo7.png" alt="logo" class="logo">
+    <h1>GEETHANJALI INSTITUTE OF SCIENCE AND TECHNOLOGY</h1>
+    <hr>
+    <p>3rd Mile,Bombay Highway, Gangavaram (V),Kovur (M),SPSR Nellore (Dt), AndhraPradesh, India 524137</p>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="introduction.html">Introduction</a></li>
+            <li><a href="Abstract.html">Abstract</a></li>
+            <li><a href="Questionnaire.html">Questionnaire</a></li>
+            <li><a href="Survey.html">Survey Data</a></li>
+            <li><a href="hlo.html">Activity Log</a></li>
+            <li><a href="hlo.html">Pictures</a></li>
+            <li><a href="Members.html">Members</a></li>
+            <li><a href="Conclusion.html">Conclusion</a></li>
+        </ul>
+        <ul>
+            <li class="hideonmobile"><a href="index.html">Home</a></li>
+            <li class="hideonmobile"><a href="introduction.html">Introduction</a></li>
+            <li class="hideonmobile"><a href="Abstract.html">Abstract</a></li>
+            <li class="hideonmobile"><a href="Questionnaire.html">Questionnaire</a></li>
+            <li class="hideonmobile"><a href="Survey.html">Survey Data</a></li>
+            <li class="hideonmobile"><a href="hlo.html">Activity Log</a></li>
+            <li class="hideonmobile"><a href="hlo.html">Pictures</a></li>
+            <li class="hideonmobile"><a href="Members.html">Members</a></li>
+            <li class="hideonmobile"><a href="Conclusion.html">Conclusion</a></li>
+            <li onclick= showSidebar() class="menu-btn"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+    <div class="title-container">
+        <h1 class="project-title">Welcome to our Community Service Project</h1>
+    </div>
+    
+<div class="harsha">
+    <h2 class="praneeth">People preffering online or offline shopping</h2>
+</div>
+<a href="introduction.html" class="hii">
+<button class="btn-101">
+    Join Us
+    <svg>
+      <defs>
+        <filter id="glow">
+          <fegaussianblur result="coloredBlur" stddeviation="5"></fegaussianblur>
+          <femerge>
+            <femergenode in="coloredBlur"></femergenode>
+            <femergenode in="coloredBlur"></femergenode>
+            <femergenode in="coloredBlur"></femergenode>
+            <femergenode in="SourceGraphic"></femergenode>
+          </femerge>
+        </filter>
+      </defs>
+      <rect />
+    </svg>
+  </button>
+</a>
+
+    <script> 
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display='flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+    
+<!--<h2 class="project-title">Identification of people who are preferring online shopping or offline shopping</h2>
+<a href="/introduction.html" class="button">Explore</a>!-->
+<footer>
+    <p>&copy Community Service Project 2025</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="ques.css"> <!-- Link to external CSS -->
+</head>
+<body>
+
+    <div class="container">
+        <h1>Questionnaire</h1>
+        <p>Please take a few minutes to answer the following questions.</p>
+
+        <form action="#" method="POST">
+            <label for="name">What is your name ?</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">What is your phone number ?</label>
+            <input type="email" id="email" name="email" placeholder="Enter your phone number" required>
+
+            <label>What is your preferred mode of shopping?</label>
+            <select name="shopping-preference" required>
+                <option value="">-- Select an option --</option>
+                <option value="online">Online Shopping</option>
+                <option value="offline">Offline Shopping</option>
+                <option value="both">Both</option>
+            </select>
+            <label for="daily">Enter Your Aadhaar Number</label>
+            <input type="password" id="daily" name="shopping-frequency" placeholder="Enter your Aadhaar Number">
+            <label for="feedback">Additional Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Write your feedback..."></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>

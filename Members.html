@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Team</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #6e8efb, #a777e3);
+      color: #fff;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .team-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .team-member {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 8px;
+      padding: 1rem;
+      width: 200px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .team-member:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .team-member h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+
+    .team-member p {
+      font-size: 0.9rem;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .team-member {
+        width: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+    <h1>The team was headed and guided by our HOD<span style="color: rgb(21, 30, 211);">P.Nagendra Kumar Sir Ph.D.</span> We are very glad to work under his guidance and encouragement in successfully completing this Project.</h1>
+  <header>
+    <h1>Meet Our Team</h1>
+  </header>
+
+  <div class="team-container">
+    <!-- Team Member 1 -->
+    <div class="team-member">
+      <h2>Y.SAI VENKATA PRANEETH</h2>
+      <p>Frontend Developer</p>
+    </div>
+
+    <!-- Team Member 2 -->
+    <div class="team-member">
+      <h2>O.HARSHA VARDHAN</h2>
+      <p>Backend Developer</p>
+    </div>
+
+    <!-- Team Member 3 -->
+    <div class="team-member">
+      <h2>SK.SUBHANI</h2>
+      <p>UI/UX Designer</p>
+    </div>
+
+    <!-- Team Member 4 -->
+    <div class="team-member">
+      <h2>V.NIRANJAN</h2>
+      <p>DevOps Engineer</p>
+    </div>
+  </div>
+</body>
+</html>

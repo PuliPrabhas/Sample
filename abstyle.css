@@ -1,0 +1,88 @@
+body{
+    background-image: url(kiiii.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Stylish H1 (Main Heading) */
+h1 {
+color: #cdf007; /* Gold */
+font-weight: bold;
+font-size: 3rem;
+text-shadow: 3px 3px 8px rgb(16, 16, 1);
+transition: all 0.3s ease-in-out;
+}
+
+/* Special Hover Effect for H1 */
+h1:hover {
+color: #ff8800; /* A vibrant gold-orange */
+text-shadow: 5px 5px 12px rgba(255, 136, 0, 1);
+transform: scale(1.05);
+}
+
+/* Stylish H3 (Subheadings & Bold Text) */
+h3 {
+color: #5FE2FF; /* Soft Cyan */
+font-weight: 600;
+font-size: 1.8rem;
+text-shadow: 2px 2px 6px rgba(95, 226, 255, 0.8);
+transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect for H3 */
+h3:hover {
+color: #00bfff; /* Brighter cyan */
+text-shadow: 3px 3px 10px rgba(0, 191, 255, 1);
+transform: scale(1.05);
+}
+
+/* Making the Abstract Text More Readable */
+p {
+color: rgba(255, 255, 255, 0.9); /* White with transparency */
+font-size: 1.2rem;
+line-height: 1.6;
+text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+transition: all 0.3s ease-in-out;
+}
+
+/* Cool Hover Effect for Paragraphs */
+p:hover {
+color: #ffffff;
+text-shadow: 2px 2px 6px rgba(255, 255, 255, 0.9);
+}
+
+/* Background Overlay for Better Visibility */
+.abstract-container {
+position: relative;
+padding: 50px;
+margin-top: 70px;
+}
+
+.abstract-container::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+z-index: 1;
+}
+
+/* Ensure text appears above the overlay */
+.abstract-content {
+position: relative;
+z-index: 2;
+text-align: cente
+}
+
+/* Animation for a Stylish Glow Effect */
+@keyframes glowing {
+0% { text-shadow: 0 0 5px #FFD700, 0 0 10px #ff8800; }
+50% { text-shadow: 0 0 10px #ff8800, 0 0 20px #FFD700; }
+100% { text-shadow: 0 0 5px #FFD700, 0 0 10px #ff8800; }
+}
+
+/* Apply Glow Animation to H1 */
+h1:hover {
+animation: glowing 1.5s infinite alternate;
+}
